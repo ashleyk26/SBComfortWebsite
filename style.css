@@ -1,0 +1,242 @@
+:root{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    text-align: center;
+}
+body{
+    padding-bottom: 65px;
+    display:grid;
+    grid-template-columns: auto; 
+    align-items: center; 
+}
+main{
+    width: 100%;
+    height: 100vh;
+}
+.actionShots{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+}
+.actionPics{
+    width: 438px;
+    height: 641px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background-color:rgb(136, 9, 9);
+    color: white;
+    padding: 5px;
+}
+.footerHead{
+    text-align: left;
+    padding-bottom: 3px;
+    font-size: 130%;
+}
+.footerParagraph{
+    font-size: 90%;
+}
+.type{
+    background-color: rgb(136, 9, 9);
+    color: white;
+    border: 2px solid black;
+    padding: 5px;
+    margin:20px 20px;
+    width: 225px;
+    height: 120px;
+    align-items: center;
+}
+nav{
+    background-color: rgb(178, 99, 3);
+}
+p{
+    font-family: Verdana;
+    font-size: 20px;
+}
+.links{
+    font-size: 20px;
+    padding: 2px;
+    align-items: right;
+    margin: 0 20px;
+    color: white;
+    text-transform: uppercase;
+}
+nav a:link{
+    text-decoration: none;
+    align-items:right;
+}
+.imageHome{
+    height:900px;
+    background-image:url(SB\ ComfortDetailing-3.png);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    align-items: right;
+    height:5%;
+    width:5%;
+}
+.types{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+    column-gap: 50px;
+    align-items: center;
+    background-color: rgb(178, 99, 3);
+}
+.websiteTitle{
+    align-items: left;
+}
+.secondHeaders{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.space{
+    height: 50px;
+}
+.paragraphText{
+    text-align:center;
+}
+.infoHome{
+    padding: 10px;
+}
+.footer{
+    background-color: rgb(136, 9, 9);
+    color: white;
+    size:50%;
+    padding: 7px;
+}
+.add{
+    background-color: rgb(136, 9, 9);
+    color: white;
+    text-align:center;
+    padding: 7px;
+}
+.imageAdd{
+    size:50%;
+}
+.spaceOrange{
+    height: 50px;
+    background-color:rgb(178, 99, 3);
+}
+.addP{
+    font-weight:bold;
+}
+.aboutB{
+    padding: 10px;
+}
+.gallary{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    column-gap: auto;
+    justify-items:center;
+    row-gap: auto;
+}
+.gallaryImage{
+    width: 410px;
+    height: 410px;
+}
+.footer{
+    display:grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+.Images{
+    width: 90%;
+    height: 90%;
+}
+.car{
+    background: url(carButton3.png);
+    width: 350px;
+    height: 175px;
+}
+.boat{
+    background: url(Boat.png);
+    width: 350px;
+    height:175px;
+}
+.orderOne{
+    align-items:center;
+}
+.placeholder{
+    background: url(placeholder.png);
+    width: 350px;
+    height: 175px;
+}
+.buttons{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    padding-bottom: 30px;
+    Row-gap: 50px;
+}
+.bookHeader{
+    text-align:center;
+    padding-top: 30px;
+}
+.rv{
+    background: url(RV.png);
+    width: 350px;
+    height: 175px;
+}
+.ohrv{
+    background: url(OHRV.png);
+    width: 350px;
+    height: 175px;
+}
+.motorcycle{
+    background: url(Motor.png);
+    width: 350px;
+    height: 175px;
+}
+.special{
+    background: url(special.png);
+    width: 350px;
+    height: 175px;
+}
+button{
+    padding: 30px;
+}
+.packs{
+    padding: 30px;
+    background-color: rgb(234, 209, 23);
+}
+.discountHead{
+    padding-bottom: 18px;
+}
+.package{
+    padding-bottom: 11px;
+}
+.packageName{
+    text-align: left;
+}
+.Bios{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+    padding-bottom: 30px;
+    Row-gap: 20px;
+    column-gap: 15px;
+}
+.bio{
+    width: 350px;
+    height: 350px;
+}
+.words{
+    font-size: 80%;
+    width: 350px;
+}
+.fullBio{
+    margin-left: auto;
+    margin-right: auto;
+}
+h4{
+    text-align: center;
+    size: 150%;
+}
